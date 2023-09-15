@@ -35,3 +35,12 @@ const{autor,year}=detalles
 console.log(`El Volumenen actual es: ${volumen}`);
 console.log(`El segundo actual es: ${segundo}`);
 console.log(`El autor es: ${autor}`);
+
+const colores:string[]=['blue', 'red','green','violet'];
+console.log(`color 1: ${colores[0]}`);
+console.log(`color 2: ${colores[1]}`);
+console.log(`color 3: ${colores[2]}`);
+
+
+const[azu,,x,b]=colores;
+console.log(`color 2: ${b}`);

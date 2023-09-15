@@ -1,6 +1,6 @@
 import './style.css'
 import typescriptLogo from './typescript.svg'
-import './ejemplo-ts/03-funciones.ts'
+import './ejemplo-ts/08-herencia.ts'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
 
@@ -23,3 +23,4 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 `
 
 setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
+  
